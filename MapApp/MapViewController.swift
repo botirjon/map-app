@@ -10,6 +10,7 @@ import MapKit
 import UIKit
 
 class MapViewController: UIViewController {
+    typealias Coordinate = MKPointAnnotation
     var presenter: MapViewToPresenter?
     
     private lazy var activityIndicator = UIActivityIndicatorView()
@@ -57,17 +58,9 @@ extension MapViewController: MapPresenterToView {
         isLoading ? activityIndicator.startAnimating() : activityIndicator.stopAnimating()
     }
     
-    func displayCoordinates(_ coordinates: [CoordinateEntity]) {
+    func displayCoordinates(_ viewModel: MapViewModel<MKPointAnnotation>) {
         mapView.removeAnnotations(mapView.annotations)
-        
-        let annotations = coordinates.map { coordinate in
-            let pin = MKPointAnnotation()
-            pin.coordinate = CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
-            pin.title = coordinate.title
-            return pin
-        }
-        
-        mapView.addAnnotations(annotations)
+        mapView.addAnnotations(viewModel.coordinates)
     }
     
     func displayError(_ message: String) {

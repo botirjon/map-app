@@ -7,5 +7,6 @@
 
 
 protocol MapBuilder {
-    func build() -> MapViewController
+    associatedtype MapView: MapPresenterToView
+    func build() -> MapView
 }

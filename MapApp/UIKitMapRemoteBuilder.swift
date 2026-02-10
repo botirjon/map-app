@@ -1,5 +1,5 @@
 //
-//  LocalSourcedMapBuilder.swift
+//  UIKitMapRemoteBuilder.swift
 //  MapApp
 //
 //  Created by MAC-Nasridinov-B on 10/02/26.
@@ -9,11 +9,13 @@
 import UIKit
 import MapKit
 
-class UIKitMapLocalBuilder: MapBuilder {
+
+class UIKitMapRemoteBuilder: MapBuilder {
     typealias MapView = MapViewController
     
     func build() -> MapViewController {
-        let service = CoordinatesLoaderMainQueueDecorator(target: LocalCoordinatesLoader())
+        let networkService = LocalMockNetworkService()
+        let service = CoordinatesLoaderMainQueueDecorator(target: RemoteCoordinatesLoader(networkService: networkService))
         
         let viewController = MapViewController()
         let presenter = MapPresenter<MKPointAnnotation, MapViewController>(coordinateTransformer: transform(_:))
@@ -36,6 +38,3 @@ class UIKitMapLocalBuilder: MapBuilder {
         return annotation
     }
 }
-
-
-

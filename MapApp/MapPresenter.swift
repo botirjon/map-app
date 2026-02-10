@@ -8,10 +8,15 @@
 
 import Foundation
 
-class MapPresenter {
-    weak var view: MapPresenterToView?
+class MapPresenter<Coordinate, MapView: MapPresenterToView> where MapView.Coordinate == Coordinate {
+    weak var view: MapView?
     var router: MapPresenterToRouter?
     var interactor: MapPresenterToInteractor?
+    var coordinateTransformer: (CoordinateEntity) -> Coordinate
+    
+    init(coordinateTransformer: @escaping (CoordinateEntity) -> Coordinate) {
+        self.coordinateTransformer = coordinateTransformer
+    }
 }
 
 extension MapPresenter: MapViewToPresenter {
@@ -34,7 +39,8 @@ extension MapPresenter: MapInteractorToPresenter {
     }
     
     func interactorDidSucceedLoading(_ coordinates: [CoordinateEntity]) {
-        view?.displayCoordinates(coordinates)
+        let viewModel = MapViewModel(coordinates: coordinates.map(coordinateTransformer))
+        view?.displayCoordinates(viewModel)
     }
     
     func interactorDidFailLoading(with error: any Error) {
