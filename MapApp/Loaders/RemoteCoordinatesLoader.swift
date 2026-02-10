@@ -7,36 +7,11 @@
 
 import Foundation
 
+
+
 enum RemoteCoordinatesLoaderError: Error {
     case invalidateData
     case connectionError
-}
-
-
-enum NetworkError: Error {
-    case connection
-}
-
-protocol NetworkService {
-    func request(url: URL, completion: @escaping (Result<(data: Data, response: HTTPURLResponse), Error>) -> Void)
-}
-
-class LocalMockNetworkService: NetworkService {
-    func request(url: URL, completion: @escaping (Result<(data: Data, response: HTTPURLResponse), any Error>) -> Void) {
-        let configuration = URLSessionConfiguration.ephemeral
-        configuration.protocolClasses = [LocalMockURLProtocol.self]
-        let session = URLSession(configuration: configuration)
-        let urlRequest = URLRequest(url: url)
-        session.dataTask(with: urlRequest) { data, response, error in
-            if let error {
-                completion(.failure(error))
-            } else if let data, let response = response as? HTTPURLResponse {
-                completion(.success((data, response)))
-            } else {
-                completion(.failure(NetworkError.connection))
-            }
-        }.resume()
-    }
 }
 
 class RemoteCoordinatesLoader: CoordinatesLoader {

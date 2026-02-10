@@ -6,7 +6,7 @@
 //
 
 
-protocol CoordinatesLoader {
+public protocol CoordinatesLoader {
     typealias Result = Swift.Result<[CoordinateEntity], Error>
     func load(completion: @escaping (Result) -> Void)
 }

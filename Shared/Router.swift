@@ -6,9 +6,9 @@
 //
 
 
-protocol Routable {}
+public protocol Routable {}
 
-protocol Router {
+public protocol Router {
     associatedtype Route: Routable
     func push(_ route: Route)
     func dismiss(_ route: Route)

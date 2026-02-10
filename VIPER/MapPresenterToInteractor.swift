@@ -6,6 +6,6 @@
 //
 
 
-protocol MapPresenterToInteractor: AnyObject {
+public protocol MapPresenterToInteractor: AnyObject {
     func loadCoordinates()
 }

@@ -7,20 +7,17 @@
 
 
 import MapKit
-import UIKit
 
 class MapViewController: UIViewController {
     typealias Coordinate = MKPointAnnotation
-    var presenter: MapViewToPresenter?
     
-    private lazy var activityIndicator = UIActivityIndicatorView()
-    private lazy var mapView = MKMapView()
+    private(set) lazy var activityIndicator = UIActivityIndicatorView()
+    private(set) lazy var mapView = MKMapView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
         centerMapCameraToUzbekistan()
-        presenter?.viewDidLoad()
     }
     
     private func setupUI() {
@@ -51,26 +48,8 @@ class MapViewController: UIViewController {
     }
 }
 
-extension MapViewController: MapPresenterToView {
-    
-    func displayLoading(_ isLoading: Bool) {
-        activityIndicator.isHidden = !isLoading
-        isLoading ? activityIndicator.startAnimating() : activityIndicator.stopAnimating()
-    }
-    
-    func displayCoordinates(_ viewModel: MapViewModel<MKPointAnnotation>) {
-        mapView.removeAnnotations(mapView.annotations)
-        mapView.addAnnotations(viewModel.coordinates)
-    }
-    
-    func displayError(_ message: String) {
-        let errorAlert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-        let retryAction = UIAlertAction(title: "Retry", style: .default) { [weak self] _ in
-            self?.presenter?.viewRetryTapped()
-        }
-        errorAlert.addAction(retryAction)
-        errorAlert.addAction(.init(title: "Cancel", style: .cancel))
-        
-        present(errorAlert, animated: true)
-    }
-}
+
+
+
+
+

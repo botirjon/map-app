@@ -6,16 +6,16 @@
 //
 
 
-class MapInteractor: MapPresenterToInteractor {
-    weak var presenter: MapInteractorToPresenter?
+public class MapInteractor: MapPresenterToInteractor {
+    public weak var presenter: MapInteractorToPresenter?
     
     let loader: CoordinatesLoader
     
-    init(loader: CoordinatesLoader) {
+    public init(loader: CoordinatesLoader) {
         self.loader = loader
     }
     
-    func loadCoordinates() {
+    public func loadCoordinates() {
         presenter?.interactorDidBeginLoading()
         loader.load { [weak self] result in
             guard let self else { return }

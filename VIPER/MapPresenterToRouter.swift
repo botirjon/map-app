@@ -6,6 +6,6 @@
 //
 
 
-protocol MapPresenterToRouter: AnyObject {
+public protocol MapPresenterToRouter: AnyObject {
     
 }

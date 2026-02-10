@@ -5,12 +5,12 @@
 //  Created by MAC-Nasridinov-B on 10/02/26.
 //
 
-protocol MapViewToPresenter: AnyObject {
+public protocol MapViewToPresenter: AnyObject {
     func viewDidLoad()
     func viewRetryTapped()
 }
 
-protocol MapInteractorToPresenter: AnyObject {
+public protocol MapInteractorToPresenter: AnyObject {
     func interactorDidBeginLoading()
     func interactorDidFinishLoading()
     func interactorDidSucceedLoading(_ coordinates: [CoordinateEntity])

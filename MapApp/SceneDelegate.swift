@@ -19,7 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         URLProtocol.registerClass(LocalMockURLProtocol.self)
-        let rootViewController = UIKitMapRemoteBuilder().build()
+//        let rootViewController = UIKitMapRemoteBuilder().build()
+//        let rootViewController = UIKitMapRemoteBuilderWithMVVM().build()
+        let rootViewController = UIKitMapRemoteBuilderWithMVVM2().build()
         
         let window = UIWindow(windowScene: windowScene)
         window.rootViewController = rootViewController

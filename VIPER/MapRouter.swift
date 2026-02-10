@@ -6,10 +6,10 @@
 //
 
 
-class MapRouter: MapPresenterToRouter {
+public class MapRouter: MapPresenterToRouter {
     let router: any Router
     
-    init(router: any Router) {
+    public init(router: any Router) {
         self.router = router
     }
 }

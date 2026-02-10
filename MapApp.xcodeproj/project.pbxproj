@@ -6,11 +6,156 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9C83FC662F3BA50900E3BAE3 /* VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC5D2F3BA50800E3BAE3 /* VIPER.framework */; };
+		9C83FC702F3BA50900E3BAE3 /* VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC5D2F3BA50800E3BAE3 /* VIPER.framework */; };
+		9C83FC712F3BA50900E3BAE3 /* VIPER.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC5D2F3BA50800E3BAE3 /* VIPER.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9C83FC892F3BA56100E3BAE3 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC802F3BA56100E3BAE3 /* Shared.framework */; };
+		9C83FC932F3BA56100E3BAE3 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC802F3BA56100E3BAE3 /* Shared.framework */; };
+		9C83FC942F3BA56100E3BAE3 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC802F3BA56100E3BAE3 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9C83FC9E2F3BA61200E3BAE3 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC802F3BA56100E3BAE3 /* Shared.framework */; };
+		9C83FC9F2F3BA61200E3BAE3 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83FC802F3BA56100E3BAE3 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C83FBD52F3B578100E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA1584A2F3A5B010044AA1A;
+			remoteInfo = MapApp;
+		};
+		9C83FC672F3BA50900E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C83FC5C2F3BA50800E3BAE3;
+			remoteInfo = VIPER;
+		};
+		9C83FC692F3BA50900E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA1584A2F3A5B010044AA1A;
+			remoteInfo = MapApp;
+		};
+		9C83FC6E2F3BA50900E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C83FC5C2F3BA50800E3BAE3;
+			remoteInfo = VIPER;
+		};
+		9C83FC8A2F3BA56100E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C83FC7F2F3BA56100E3BAE3;
+			remoteInfo = Shared;
+		};
+		9C83FC8C2F3BA56100E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA1584A2F3A5B010044AA1A;
+			remoteInfo = MapApp;
+		};
+		9C83FC912F3BA56100E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C83FC7F2F3BA56100E3BAE3;
+			remoteInfo = Shared;
+		};
+		9C83FCA02F3BA61200E3BAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA158432F3A5B010044AA1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C83FC7F2F3BA56100E3BAE3;
+			remoteInfo = Shared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C83FC752F3BA50900E3BAE3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9C83FC712F3BA50900E3BAE3 /* VIPER.framework in Embed Frameworks */,
+				9C83FC942F3BA56100E3BAE3 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FCA22F3BA61200E3BAE3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9C83FC9F2F3BA61200E3BAE3 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9C83FBD12F3B578100E3BAE3 /* MapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C83FC5D2F3BA50800E3BAE3 /* VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C83FC652F3BA50900E3BAE3 /* VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C83FC802F3BA56100E3BAE3 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C83FC882F3BA56100E3BAE3 /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA1584B2F3A5B010044AA1A /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9C83FC792F3BA52B00E3BAE3 /* Exceptions for "VIPER" folder in "MapApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MapInteractor.swift,
+				MapPresenter.swift,
+				MapPresenterProtocol.swift,
+				MapPresenterToInteractor.swift,
+				MapPresenterToRouter.swift,
+				MapPresenterToView.swift,
+				MapRouter.swift,
+			);
+			target = 9CA1584A2F3A5B010044AA1A /* MapApp */;
+		};
+		9C83FC7A2F3BA52B00E3BAE3 /* Exceptions for "VIPER" folder in "VIPER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MapInteractor.swift,
+				MapPresenter.swift,
+				MapPresenterProtocol.swift,
+				MapPresenterToInteractor.swift,
+				MapPresenterToRouter.swift,
+				MapPresenterToView.swift,
+				MapRouter.swift,
+			);
+			target = 9C83FC5C2F3BA50800E3BAE3 /* VIPER */;
+		};
+		9C83FC9B2F3BA56D00E3BAE3 /* Exceptions for "Shared" folder in "MapApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoordinateEntity.swift,
+				CoordinatesLoader.swift,
+				Router.swift,
+			);
+			target = 9CA1584A2F3A5B010044AA1A /* MapApp */;
+		};
+		9C83FC9C2F3BA56D00E3BAE3 /* Exceptions for "Shared" folder in "Shared" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CoordinateEntity.swift,
+				CoordinatesLoader.swift,
+				Router.swift,
+			);
+			target = 9C83FC7F2F3BA56100E3BAE3 /* Shared */;
+		};
 		9CA1585D2F3A5B030044AA1A /* Exceptions for "MapApp" folder in "MapApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -21,6 +166,39 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		9C83FBD22F3B578100E3BAE3 /* MapAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MapAppTests;
+			sourceTree = "<group>";
+		};
+		9C83FC5E2F3BA50800E3BAE3 /* VIPER */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9C83FC792F3BA52B00E3BAE3 /* Exceptions for "VIPER" folder in "MapApp" target */,
+				9C83FC7A2F3BA52B00E3BAE3 /* Exceptions for "VIPER" folder in "VIPER" target */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		9C83FC6B2F3BA50900E3BAE3 /* VIPERTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VIPERTests;
+			sourceTree = "<group>";
+		};
+		9C83FC812F3BA56100E3BAE3 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9C83FC9B2F3BA56D00E3BAE3 /* Exceptions for "Shared" folder in "MapApp" target */,
+				9C83FC9C2F3BA56D00E3BAE3 /* Exceptions for "Shared" folder in "Shared" target */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9C83FC8E2F3BA56100E3BAE3 /* SharedTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SharedTests;
+			sourceTree = "<group>";
+		};
 		9CA1584D2F3A5B010044AA1A /* MapApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,20 +210,73 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9CA158482F3A5B010044AA1A /* Frameworks */ = {
+		9C83FBCE2F3B578100E3BAE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9C83FC5A2F3BA50800E3BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C83FC9E2F3BA61200E3BAE3 /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC622F3BA50900E3BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C83FC662F3BA50900E3BAE3 /* VIPER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC7D2F3BA56100E3BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC852F3BA56100E3BAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C83FC892F3BA56100E3BAE3 /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA158482F3A5B010044AA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C83FC702F3BA50900E3BAE3 /* VIPER.framework in Frameworks */,
+				9C83FC932F3BA56100E3BAE3 /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C83FC9D2F3BA61200E3BAE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CA158422F3A5B010044AA1A = {
 			isa = PBXGroup;
 			children = (
 				9CA1584D2F3A5B010044AA1A /* MapApp */,
+				9C83FBD22F3B578100E3BAE3 /* MapAppTests */,
+				9C83FC5E2F3BA50800E3BAE3 /* VIPER */,
+				9C83FC6B2F3BA50900E3BAE3 /* VIPERTests */,
+				9C83FC812F3BA56100E3BAE3 /* Shared */,
+				9C83FC8E2F3BA56100E3BAE3 /* SharedTests */,
+				9C83FC9D2F3BA61200E3BAE3 /* Frameworks */,
 				9CA1584C2F3A5B010044AA1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,13 +285,154 @@
 			isa = PBXGroup;
 			children = (
 				9CA1584B2F3A5B010044AA1A /* MapApp.app */,
+				9C83FBD12F3B578100E3BAE3 /* MapAppTests.xctest */,
+				9C83FC5D2F3BA50800E3BAE3 /* VIPER.framework */,
+				9C83FC652F3BA50900E3BAE3 /* VIPERTests.xctest */,
+				9C83FC802F3BA56100E3BAE3 /* Shared.framework */,
+				9C83FC882F3BA56100E3BAE3 /* SharedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9C83FC582F3BA50800E3BAE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC7B2F3BA56100E3BAE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		9C83FBD02F3B578100E3BAE3 /* MapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C83FBD72F3B578100E3BAE3 /* Build configuration list for PBXNativeTarget "MapAppTests" */;
+			buildPhases = (
+				9C83FBCD2F3B578100E3BAE3 /* Sources */,
+				9C83FBCE2F3B578100E3BAE3 /* Frameworks */,
+				9C83FBCF2F3B578100E3BAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C83FBD62F3B578100E3BAE3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9C83FBD22F3B578100E3BAE3 /* MapAppTests */,
+			);
+			name = MapAppTests;
+			packageProductDependencies = (
+			);
+			productName = MapAppTests;
+			productReference = 9C83FBD12F3B578100E3BAE3 /* MapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C83FC5C2F3BA50800E3BAE3 /* VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C83FC722F3BA50900E3BAE3 /* Build configuration list for PBXNativeTarget "VIPER" */;
+			buildPhases = (
+				9C83FC582F3BA50800E3BAE3 /* Headers */,
+				9C83FC592F3BA50800E3BAE3 /* Sources */,
+				9C83FC5A2F3BA50800E3BAE3 /* Frameworks */,
+				9C83FC5B2F3BA50800E3BAE3 /* Resources */,
+				9C83FCA22F3BA61200E3BAE3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C83FCA12F3BA61200E3BAE3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9C83FC5E2F3BA50800E3BAE3 /* VIPER */,
+			);
+			name = VIPER;
+			packageProductDependencies = (
+			);
+			productName = VIPER;
+			productReference = 9C83FC5D2F3BA50800E3BAE3 /* VIPER.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C83FC642F3BA50900E3BAE3 /* VIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C83FC762F3BA50900E3BAE3 /* Build configuration list for PBXNativeTarget "VIPERTests" */;
+			buildPhases = (
+				9C83FC612F3BA50900E3BAE3 /* Sources */,
+				9C83FC622F3BA50900E3BAE3 /* Frameworks */,
+				9C83FC632F3BA50900E3BAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C83FC682F3BA50900E3BAE3 /* PBXTargetDependency */,
+				9C83FC6A2F3BA50900E3BAE3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9C83FC6B2F3BA50900E3BAE3 /* VIPERTests */,
+			);
+			name = VIPERTests;
+			packageProductDependencies = (
+			);
+			productName = VIPERTests;
+			productReference = 9C83FC652F3BA50900E3BAE3 /* VIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C83FC7F2F3BA56100E3BAE3 /* Shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C83FC952F3BA56100E3BAE3 /* Build configuration list for PBXNativeTarget "Shared" */;
+			buildPhases = (
+				9C83FC7B2F3BA56100E3BAE3 /* Headers */,
+				9C83FC7C2F3BA56100E3BAE3 /* Sources */,
+				9C83FC7D2F3BA56100E3BAE3 /* Frameworks */,
+				9C83FC7E2F3BA56100E3BAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9C83FC812F3BA56100E3BAE3 /* Shared */,
+			);
+			name = Shared;
+			packageProductDependencies = (
+			);
+			productName = Shared;
+			productReference = 9C83FC802F3BA56100E3BAE3 /* Shared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C83FC872F3BA56100E3BAE3 /* SharedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C83FC982F3BA56100E3BAE3 /* Build configuration list for PBXNativeTarget "SharedTests" */;
+			buildPhases = (
+				9C83FC842F3BA56100E3BAE3 /* Sources */,
+				9C83FC852F3BA56100E3BAE3 /* Frameworks */,
+				9C83FC862F3BA56100E3BAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C83FC8B2F3BA56100E3BAE3 /* PBXTargetDependency */,
+				9C83FC8D2F3BA56100E3BAE3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9C83FC8E2F3BA56100E3BAE3 /* SharedTests */,
+			);
+			name = SharedTests;
+			packageProductDependencies = (
+			);
+			productName = SharedTests;
+			productReference = 9C83FC882F3BA56100E3BAE3 /* SharedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9CA1584A2F3A5B010044AA1A /* MapApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA1585E2F3A5B030044AA1A /* Build configuration list for PBXNativeTarget "MapApp" */;
@@ -68,10 +440,13 @@
 				9CA158472F3A5B010044AA1A /* Sources */,
 				9CA158482F3A5B010044AA1A /* Frameworks */,
 				9CA158492F3A5B010044AA1A /* Resources */,
+				9C83FC752F3BA50900E3BAE3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9C83FC6F2F3BA50900E3BAE3 /* PBXTargetDependency */,
+				9C83FC922F3BA56100E3BAE3 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				9CA1584D2F3A5B010044AA1A /* MapApp */,
@@ -93,6 +468,25 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					9C83FBD02F3B578100E3BAE3 = {
+						CreatedOnToolsVersion = 26.0;
+						LastSwiftMigration = 2600;
+						TestTargetID = 9CA1584A2F3A5B010044AA1A;
+					};
+					9C83FC5C2F3BA50800E3BAE3 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					9C83FC642F3BA50900E3BAE3 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 9CA1584A2F3A5B010044AA1A;
+					};
+					9C83FC7F2F3BA56100E3BAE3 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					9C83FC872F3BA56100E3BAE3 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 9CA1584A2F3A5B010044AA1A;
+					};
 					9CA1584A2F3A5B010044AA1A = {
 						CreatedOnToolsVersion = 26.0;
 					};
@@ -113,11 +507,51 @@
 			projectRoot = "";
 			targets = (
 				9CA1584A2F3A5B010044AA1A /* MapApp */,
+				9C83FBD02F3B578100E3BAE3 /* MapAppTests */,
+				9C83FC5C2F3BA50800E3BAE3 /* VIPER */,
+				9C83FC642F3BA50900E3BAE3 /* VIPERTests */,
+				9C83FC7F2F3BA56100E3BAE3 /* Shared */,
+				9C83FC872F3BA56100E3BAE3 /* SharedTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9C83FBCF2F3B578100E3BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC5B2F3BA50800E3BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC632F3BA50900E3BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC7E2F3BA56100E3BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC862F3BA56100E3BAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CA158492F3A5B010044AA1A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +562,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9C83FBCD2F3B578100E3BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC592F3BA50800E3BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC612F3BA50900E3BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC7C2F3BA56100E3BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C83FC842F3BA56100E3BAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CA158472F3A5B010044AA1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +606,329 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9C83FBD62F3B578100E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA1584A2F3A5B010044AA1A /* MapApp */;
+			targetProxy = 9C83FBD52F3B578100E3BAE3 /* PBXContainerItemProxy */;
+		};
+		9C83FC682F3BA50900E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C83FC5C2F3BA50800E3BAE3 /* VIPER */;
+			targetProxy = 9C83FC672F3BA50900E3BAE3 /* PBXContainerItemProxy */;
+		};
+		9C83FC6A2F3BA50900E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA1584A2F3A5B010044AA1A /* MapApp */;
+			targetProxy = 9C83FC692F3BA50900E3BAE3 /* PBXContainerItemProxy */;
+		};
+		9C83FC6F2F3BA50900E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C83FC5C2F3BA50800E3BAE3 /* VIPER */;
+			targetProxy = 9C83FC6E2F3BA50900E3BAE3 /* PBXContainerItemProxy */;
+		};
+		9C83FC8B2F3BA56100E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C83FC7F2F3BA56100E3BAE3 /* Shared */;
+			targetProxy = 9C83FC8A2F3BA56100E3BAE3 /* PBXContainerItemProxy */;
+		};
+		9C83FC8D2F3BA56100E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA1584A2F3A5B010044AA1A /* MapApp */;
+			targetProxy = 9C83FC8C2F3BA56100E3BAE3 /* PBXContainerItemProxy */;
+		};
+		9C83FC922F3BA56100E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C83FC7F2F3BA56100E3BAE3 /* Shared */;
+			targetProxy = 9C83FC912F3BA56100E3BAE3 /* PBXContainerItemProxy */;
+		};
+		9C83FCA12F3BA61200E3BAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C83FC7F2F3BA56100E3BAE3 /* Shared */;
+			targetProxy = 9C83FCA02F3BA61200E3BAE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9C83FBD82F3B578100E3BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.MapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapApp";
+			};
+			name = Debug;
+		};
+		9C83FBD92F3B578100E3BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.MapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapApp";
+			};
+			name = Release;
+		};
+		9C83FC732F3BA50900E3BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.VIPER;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C83FC742F3BA50900E3BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.VIPER;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C83FC772F3BA50900E3BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.VIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapApp";
+			};
+			name = Debug;
+		};
+		9C83FC782F3BA50900E3BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.VIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapApp";
+			};
+			name = Release;
+		};
+		9C83FC962F3BA56100E3BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C83FC972F3BA56100E3BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C83FC992F3BA56100E3BAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.SharedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapApp";
+			};
+			name = Debug;
+		};
+		9C83FC9A2F3BA56100E3BAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XJ2UXQ823J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learning.me.SharedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapApp";
+			};
+			name = Release;
+		};
 		9CA1585F2F3A5B030044AA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,6 +1119,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9C83FBD72F3B578100E3BAE3 /* Build configuration list for PBXNativeTarget "MapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C83FBD82F3B578100E3BAE3 /* Debug */,
+				9C83FBD92F3B578100E3BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C83FC722F3BA50900E3BAE3 /* Build configuration list for PBXNativeTarget "VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C83FC732F3BA50900E3BAE3 /* Debug */,
+				9C83FC742F3BA50900E3BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C83FC762F3BA50900E3BAE3 /* Build configuration list for PBXNativeTarget "VIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C83FC772F3BA50900E3BAE3 /* Debug */,
+				9C83FC782F3BA50900E3BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C83FC952F3BA56100E3BAE3 /* Build configuration list for PBXNativeTarget "Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C83FC962F3BA56100E3BAE3 /* Debug */,
+				9C83FC972F3BA56100E3BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C83FC982F3BA56100E3BAE3 /* Build configuration list for PBXNativeTarget "SharedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C83FC992F3BA56100E3BAE3 /* Debug */,
+				9C83FC9A2F3BA56100E3BAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9CA158462F3A5B010044AA1A /* Build configuration list for PBXProject "MapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

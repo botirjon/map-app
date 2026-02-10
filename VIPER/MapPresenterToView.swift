@@ -5,11 +5,11 @@
 //  Created by MAC-Nasridinov-B on 10/02/26.
 //
 
-struct MapViewModel<Coordinate> {
+public struct MapViewModel<Coordinate> {
     let coordinates: [Coordinate]
 }
 
-protocol MapPresenterToView: AnyObject {
+public protocol MapPresenterToView: AnyObject {
     associatedtype Coordinate
     func displayLoading(_ isLoading: Bool)
     func displayCoordinates(_ viewModel: MapViewModel<Coordinate>)

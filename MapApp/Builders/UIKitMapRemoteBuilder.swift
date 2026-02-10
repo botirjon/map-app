@@ -10,15 +10,15 @@ import UIKit
 import MapKit
 
 
-class UIKitMapRemoteBuilder: MapBuilder {
+class UIKitMapRemoteBuilder: UIKitMapBuilder {
     typealias MapView = MapViewController
     
     func build() -> MapViewController {
         let networkService = LocalMockNetworkService()
         let service = CoordinatesLoaderMainQueueDecorator(target: RemoteCoordinatesLoader(networkService: networkService))
         
-        let viewController = MapViewController()
-        let presenter = MapPresenter<MKPointAnnotation, MapViewController>(coordinateTransformer: transform(_:))
+        let viewController = VIPERMapViewController()
+        let presenter = MapPresenter<MKPointAnnotation, VIPERMapViewController>(coordinateTransformer: transform(_:))
         let interactor = MapInteractor(loader: service)
         let router = MapRouter(router: viewController)
         
@@ -29,12 +29,5 @@ class UIKitMapRemoteBuilder: MapBuilder {
         interactor.presenter = presenter
         
         return viewController
-    }
-    
-    private func transform(_ coordinate: CoordinateEntity) -> MKPointAnnotation {
-        let location = CLLocationCoordinate2D(latitude: coordinate.latitude, longitude: coordinate.longitude)
-        let annotation = MKPointAnnotation(coordinate: location)
-        annotation.title = coordinate.title
-        return annotation
     }
 }
