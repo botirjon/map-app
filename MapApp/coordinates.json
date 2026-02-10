@@ -1,0 +1,34 @@
+{
+    "coordinates": [
+        {
+            "title": "Tashkent (Capital)",
+            "latitude": 41.2995,
+            "longitude": 69.2401
+        },
+        {
+            "title": "Samarkand",
+            "latitude": 39.6270,
+            "longitude": 66.9750
+        },
+        {
+            "title": "Bukhara",
+            "latitude": 39.7747,
+            "longitude": 64.4286
+        },
+        {
+            "title": "Khiva",
+            "latitude": 41.3783,
+            "longitude": 60.3639
+        },
+        {
+            "title": "Nukus",
+            "latitude": 42.4533,
+            "longitude": 59.6103
+        },
+        {
+            "title": "Namangan",
+            "latitude": 40.9983,
+            "longitude": 71.6726
+        }       
+    ]
+}
